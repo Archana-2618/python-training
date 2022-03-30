@@ -1,0 +1,13 @@
+print("----break----")
+str="aeiou aeiou"
+for val in str:
+    if val==" ":
+        break
+    print(val)
+
+print("----continue----")
+str="aeiou aeiou"
+for val in str:
+    if val==" ":
+        continue
+    print(val)
