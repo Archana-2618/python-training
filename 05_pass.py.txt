@@ -1,0 +1,11 @@
+str="string"
+for i in str:
+   print(i)
+
+
+str="aeiou"
+for i in str:
+    pass
+
+for i in range(5):
+    print(i)
