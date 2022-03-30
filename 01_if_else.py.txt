@@ -1,0 +1,21 @@
+#if_else statement
+num=int(input("enter num value:"))
+if num >= 0:
+    print(num ,"is Positie number")
+else:
+    print(num ," is Negative number")
+
+
+
+
+
+'''#if_elif statement:
+a = int(input("enter num value:"))
+b = int(input("enter num value:"))
+c = int(input("enter num value:"))
+if(a>b && a>c):
+    print("a is biggest value")
+elif(b>a && b>c):
+    print("b is biggest value")
+else:
+    print("c is biggest value")'''
