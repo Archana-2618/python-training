@@ -1,0 +1,9 @@
+x=input("enter value:" )
+for i in x:
+   print(i)
+
+
+#range func
+for i in range(6):
+    print(i)
+
