@@ -1,0 +1,45 @@
+#create string
+str1='hello'
+str2="world"
+str3='''hello'''
+str4="""h
+e
+l
+l
+o"""
+print(str1)
+print(str2)
+print(str3)
+print(str4)
+
+#accessing
+my_string="hello python"
+print(my_string[2])
+print(my_string[-1])
+print(my_string[2:])
+
+#iterate
+for i in my_string:
+    print(i)
+
+count=0
+for i in my_string:
+    if (i=="o"):
+        count+=1
+print(count)
+
+#Concatenation
+print(str1+str2)
+print((str1)*3)
+
+#buil in function
+strg=list(enumerate(my_string))
+print(strg)
+print(len(strg))
+
+#formate
+fr="{},{}".format("hi","gd mrng")
+print(fr)
+
+print(my_string.upper())
+print(my_string.lower())

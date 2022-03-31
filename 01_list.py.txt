@@ -1,0 +1,43 @@
+#create list
+my_list=[1,2,3,"four","five",6]
+print(my_list)
+
+#index
+print(my_list[4])
+print(my_list[4][2])
+#negatie index
+print(my_list[-1])
+print(my_list[:-1])
+print(my_list[-3][-1])
+
+#slice
+print(my_list[1:4])
+print(my_list[:4])
+print(my_list[:])
+
+#add/change/delete
+my_list[4]=5
+print(my_list)
+my_list.insert(6,7)
+print(my_list)
+my_list.pop()
+print(my_list)
+my_list.remove(2)
+print(my_list)
+
+#list methods
+my_list.append(7)
+print(my_list)
+my_list.index(7)
+print(my_list)
+my_list.count(6)
+print(my_list)
+
+#list operation
+print(2 in my_list)
+print(5 in my_list)
+print(2 not in my_list)
+
+#iterate list
+for i in my_list:
+    print(i)

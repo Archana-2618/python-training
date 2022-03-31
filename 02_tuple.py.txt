@@ -1,0 +1,21 @@
+#create
+my_tuple=(1,7,2,3,7,4,5,"six",7)
+print(my_tuple)
+
+#indexing/ 
+print(my_tuple[1])
+print(my_tuple[-2])
+
+#methods
+print(my_tuple.count(7))
+print(my_tuple.index(5))
+print(3 in my_tuple)
+print(6 in my_tuple)
+print(0 not in my_tuple)
+
+#iterate
+for i in my_tuple:
+    print("items:",i)
+
+print((my_tuple)+(my_tuple))
+print((my_tuple)*3)

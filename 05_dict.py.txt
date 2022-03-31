@@ -1,0 +1,19 @@
+#create
+my_dict={"1":"a","2":"b","3":"c"}
+print(my_dict.get("2"))
+print(my_dict["1"])
+print(my_dict.get("4"))
+
+# Changing and adding
+my_dict["2"]="B"
+print(my_dict)
+my_dict["4"]="e"
+print(my_dict)
+print(my_dict.items())
+
+for i in my_dict.items():
+    print(i)
+
+#comprehension
+sqrs ={x:x*x for x in range(6)}
+print(sqrs)
