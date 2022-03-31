@@ -1,0 +1,8 @@
+print("-----Recursive function-----")
+def recs(x):
+    if x>0:
+        recs(x-1)
+        print(x)
+
+print("recursie function :")
+recs(5)

@@ -1,0 +1,19 @@
+print("-----Argument-----")
+
+def arg(name,msg):
+    print("hi",name+","+msg)
+arg("achu", "gd mrng")
+
+print("-----default argument-----")
+
+def farg(name,msg="gd mrng"):
+    print(name+","+msg)
+
+farg("archana")
+farg("achu","HRU")
+
+print("-----Arbitrory argument-----")
+def Aarg(*seq):
+    for i in seq:
+        print(i)
+Aarg("a","e","i","o","u")

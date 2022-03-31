@@ -1,0 +1,15 @@
+print("-----lambda function-----")
+
+add=lambda x,y:x+y
+print(add(4,5))
+
+print("-----using filter()-----")
+lst=[1,2,3,4,5,6,7,8,9,10]
+N_lst=list(filter(lambda x: (x%2==0),lst))
+print(N_lst)
+
+
+print("-----using map()-----")
+lst=[1,2,3,4,5,6,7,8,9,10]
+N_lst=list(map(lambda x:(x*2),lst))
+print(N_lst)

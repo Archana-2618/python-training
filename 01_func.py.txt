@@ -1,0 +1,13 @@
+def first(word):
+    print(word,"world")
+    
+first("hello")
+
+print("----variable----")
+
+def func():
+    x=10
+    print("inside variable :",x)
+func()
+x=20
+print("outside variable :",x)
