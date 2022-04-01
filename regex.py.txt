@@ -1,0 +1,14 @@
+import re
+str=input("enter str:")
+pat='^a...s$'
+match=re.match(pat,str)
+if match:
+    print("matching")
+else:
+    print("unmatching")
+
+print("---------findall----------")
+str="bjds 34, fh32fn 76"
+pat='\d+'
+match=re.findall(pat,str)
+print(match)

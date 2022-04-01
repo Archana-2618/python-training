@@ -1,0 +1,13 @@
+my_lst=[1,2,3,4,5]
+lst=iter(my_lst)
+print(next(lst))
+print(next(lst))
+print(next(lst))
+print(next(lst))
+print(next(lst))
+
+
+print("--------using for loop--------")
+my_lst=[1,2,3,4,5]
+for i in my_lst:
+    print(i)
