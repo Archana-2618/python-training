@@ -1,0 +1,11 @@
+#open,write and read file
+with open("test.txt.txt","w") as f:
+     print(f.write("working with programiz"))
+    
+
+'''with open("test.txt.txt","r") as f:
+    print(f.read())'''
+    
+   
+    
+

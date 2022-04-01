@@ -1,0 +1,18 @@
+>>> import os
+>>> os.getcwd()
+'D:\\Archana\\Python Training'
+>>> os.listdir()
+['py_datatypes', 'py_file', 'py_flow control', 'py_functions', 'test.txt']
+>>> os.chdir("py_file")
+>>> os.listdir()
+['01_file.py.txt', '02_dir.py.txt', 'test.txt.txt']
+>>> os.getcwd()
+'D:\\Archana\\Python Training\\py_file'
+>>> os.remove("py_file")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'py_file'
+>>> os.remove("test.txt.txt")
+>>> os.listdir()
+['01_file.py.txt', '02_dir.py.txt']
+>>>

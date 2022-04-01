@@ -1,0 +1,10 @@
+import sys
+lst=[0,1]
+for i in lst:
+    try:
+      r=1/int(i)
+      #print(r)
+      break
+    except:
+      print(sys.exc_info(),"occured")
+print("reciprocal of",i ,"is",r)
