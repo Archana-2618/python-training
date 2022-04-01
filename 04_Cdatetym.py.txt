@@ -1,0 +1,9 @@
+from datetime import datetime
+now=datetime.today()
+print(now)
+
+d1=datetime.strftime(now,"%d, %B, %Y")
+print(d1)
+
+d2=datetime.strftime(now,"%d, %b, %Y")
+print(d2)

@@ -1,0 +1,8 @@
+from datetime import datetime
+str="01, April, 2022"
+
+a=datetime.strptime(str, "%d, %B, %Y")
+print(a)
+print(type(a))
+
+
