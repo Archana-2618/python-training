@@ -1,0 +1,14 @@
+class Person():
+    def __init__(self):
+        self.name="Ravi"
+  
+    def bio(self):
+        self.location="chennai"
+        self.contact="+91 9876543210"
+    def interest(self):
+         self.favColor="black"
+         self.favGame="cricket"
+obj=Person()
+print(obj.name)
+obj.bio()
+obj.interest()

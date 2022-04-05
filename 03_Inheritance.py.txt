@@ -1,0 +1,20 @@
+class Person():
+    def __init__(self,name, age):
+        self.name=name
+        self.age=age
+    def printcls(self):
+        print(self.name , self.age)
+
+
+class Student(Person):
+    pass
+class Employee(Person):
+    pass
+
+
+x=Person("ravi","23")
+x.printcls()
+y=Student("ram","15")
+y.printcls()
+z=Employee("raj","28")
+z.printcls()
